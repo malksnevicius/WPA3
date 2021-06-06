@@ -1,6 +1,10 @@
 from unittest import TestCase
 from caesar_cipher import caesar_cipher, decrypt_caesar
 
+# Tomas, venovala som tomuto dnes par hodin
+# ale nedopracovala somsa k prejdeniu vsetkcyh testov
+# pri testoch kde shift nebol v ramci 1-26, som skusala self.isinstance
+# a tiez self.assertFalse ale nemam spravne riesenie
 
 class TestCeasarCipher(TestCase):
     def test_caesar_cipher_standard(self):
