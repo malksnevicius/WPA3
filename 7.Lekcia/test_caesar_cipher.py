@@ -17,7 +17,7 @@ class TestCeasarCipher(TestCase):
 
     def test_caesar_cipher_index_more_than_26(self):
         self.assertRaises(
-            TypeError, caesar_cipher.,
+            TypeError, caesar_cipher,
             "Ahoj Svet!", 277
         )
     def test_caesar_cipher_index_less_than_0(self):
